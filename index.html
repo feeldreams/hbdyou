@@ -1,5 +1,6 @@
 <html><meta charset='UTF-8'/><meta content='width=device-width, initial-scale=1, user-scalable=1, minimum-scale=1, maximum-scale=5' name='viewport'/><meta content='IE=edge' http-equiv='X-UA-Compatible'/>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet"><script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.all.min.js"></script><script src="https://kit.fontawesome.com/4f3ce16e3e.js" crossorigin="anonymous"></script>
+<link href="https://Blog.feeldream.repl.co/style.css" rel="stylesheet" type="text/css" />
 <head>
 <!-- Edit Judul Script di Sini -->
   <title>Script HTML</title>
@@ -125,8 +126,13 @@ p{margin:1.5em 0;transition:all .3s ease;}
      </div>
      
 </div>
-
+<div class='sticky-ad' id='sticky-ad'>
+ <div class='adB'><a rel="dofollow" href='https://www.google.com/search?q=html+bucin+paling+it'>Lihat Script HTML Lainnya di Sini!</a></div>
+<button aria-label='Close this ad' class='sticky-ad-close-button' onclick='hilangkan();'/>
+</div>
 <script>
+function tunjukkan(){document.getElementById("sticky-ad").style = "bottom: 0px";}
+function hilangkan() {document.getElementById("sticky-ad").style = "bottom: -130px";}
   ftom=0; jikapr=1; function nongeser() {tombol();idgeser.style = "transform: scale(.1);opacity:0;";fotolove.style="opacity:1;visibility:visible";} function startblur(){beneranblur.style="-webkit-backdrop-filter:blur(2px); backdrop-filter:blur(2px)";}
   function showDiv() {document.getElementById('bodyblur').style = "opacity:.7;";setTimeout(nongeser,1500);document.getElementById('Content').style = "opacity:1;margin-top:10vh;animation:none 3s infinite;";document.getElementById("pergeseran").style = "opacity:1;visibility:visible;";}
   function showAkhir() {setInterval(createHeart,200);document.getElementById('k2').style = "opacity:1;transform:scale(1);margin:0;";document.getElementById('Content').style.display = "none";}
@@ -147,7 +153,7 @@ p{margin:1.5em 0;transition:all .3s ease;}
   async function menuju(){await swals.fire('OK!', 'Kirim pesan ke WhatsApp aku, ya!', 'success');window.location = "https://api.whatsapp.com/send?phone=&text=" + pesanwhatsapp;}
   var aa=0,akhirkata;akhirkata = "";function aksiakhir() {if(aa<akhirkata.length){idgeser.innerHTML += akhirkata.charAt(aa);aa++;setTimeout(aksiakhir,65);}
     if(aa==akhirkata.length){jjfoto();wallpaper.style="transform: scale(1)";idkalimat.style = "opacity:1;transform: scale(1);font-size:17px;margin-top:40px";setTimeout(tombol,5000);setTimeout(kemunculan,1500);}
-   } function jjfoto(){fotoakhir.style.animation="jjft 1s";setTimeout(chfoto,500);} function chfoto(){fotoakhir.src = fotoakhir2.src;fotoakhir.style.background="none";}
+   } function jjfoto(){tunjukkan();fotoakhir.style.animation="jjft 1s";setTimeout(chfoto,500);} function chfoto(){fotoakhir.src = fotoakhir2.src;fotoakhir.style.background="none";}
 </script>
 
 <script type="text/javascript">
